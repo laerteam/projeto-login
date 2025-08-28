@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+:root {
+    --verde: #49a09d;
+    --lilas: #5f2c82;
+}
+
+body {
+    background-image: linear-gradient(var(--lilas), var(--verde));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
