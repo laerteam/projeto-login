@@ -35,16 +35,18 @@ section#login {
     height: 500px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.425);
     border-radius: 20px;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
-section #imagem {
+section#login div#imagem {
     display: block;
     background-image: url(../imagens/pattern.jpg);
     height: 200px;
     background-size: cover;
 }
 
-section #formulario {
+section#login div#formulario {
     display: block;
-    margin: 10px;
+    padding: 10px;
 }
