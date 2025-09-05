@@ -84,7 +84,7 @@ div.area input {
     padding: 5px;
     border: 0;
     border-radius: 5px;
-    transform: translateY(-12px);
+    transform: translateY(-12.5px);
 }
 
 div.area input:focus-within {
